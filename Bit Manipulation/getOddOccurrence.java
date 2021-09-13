@@ -11,7 +11,7 @@ Example 2:
 */
 
 
-class getOddOccurrence {
+class GetOddOccurrence {
     int solution(int[]arr, int n){
         int ans=0;
         for (int i=0; i<n; i++){

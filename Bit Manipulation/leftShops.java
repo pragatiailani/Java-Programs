@@ -16,7 +16,7 @@ Example 2:
 */
 
 //Naive Solution
-class leftShops{
+class LeftShops{
     static long naiveSolution(long i, long L){
         return (long)(Math.pow(2,L)-i);
     }

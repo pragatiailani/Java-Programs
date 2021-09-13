@@ -16,7 +16,7 @@ Example 2:
     from the right side is at position 3.
 */
 
-class getFirstSetBit {
+class GetFirstSetBit {
     static int solution(int n){
         int count=0, var;
         while (n!=0){

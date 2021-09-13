@@ -26,8 +26,8 @@ Example 2:
 
 */
 
-class setKthBit {
-    static int Solution(int N, int K){
+class SetKthBit {
+    static int solution(int N, int K){
         return(N|(1<<(K)));
     }
 }

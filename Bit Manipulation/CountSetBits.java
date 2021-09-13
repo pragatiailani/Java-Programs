@@ -16,7 +16,7 @@ Example 2:
 */
 
 //Naive Solution
-class setBits {
+class SetBits {
      static int navieSolution(int N){
         int count=0;
         while (N!=0){

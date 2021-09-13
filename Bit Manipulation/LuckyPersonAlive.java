@@ -27,7 +27,7 @@ Example 2:
         5 kill the 9th soldier.
 */
 
-class luckyPerson{
+class LuckyPerson{
     static int solution(int N){
         int p=0;
         p=(int)(Math.log(N)/Math.log(2));

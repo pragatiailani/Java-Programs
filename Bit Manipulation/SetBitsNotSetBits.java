@@ -9,7 +9,7 @@ Example 1:
 
 */
 
-class AP{
+class SetBitsNotSetBits{
     public void count(long n){
         int setCount=0, notSetCount=0;
         while (n!=0){

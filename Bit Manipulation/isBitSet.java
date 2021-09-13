@@ -6,7 +6,7 @@ Example 1:
     Output: 1
     Explanation: Binary for 7 is 111 all the bits are set so output is 1
 */
-class isBitSet{
+class IsBitSet{
     static int solution1(int N){
         return ((N&(N+1))==0 ? 1:0);
     }

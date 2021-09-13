@@ -13,8 +13,8 @@ Example 2:
 
 */
 
-class factorOrMultiple{
-    static int Solution(int N, int X, int A[]){
+class Multiple{
+    static int solution(int N, int X, int A[]){
         int answer=0;
         for (int i=0; i<N; i++)
             if (A[i]%X==0)

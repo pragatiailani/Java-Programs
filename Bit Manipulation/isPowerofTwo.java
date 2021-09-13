@@ -12,7 +12,7 @@ Example 2:
     Explanation: 98 cannot be obtained by any power of 2.
 */
 
-class isPowerofTwo{
+class IsPowerofTwo{
 
 //Naive Solution
     public static boolean naiveSolution(long n){

@@ -12,7 +12,7 @@ Example 2:
     Explanation: 10 + 30 = 40
 */
 
-class sum{
+class Sum{
     public static int solution(int a, int b){
         while (b!=0){
             int carry=a&b;

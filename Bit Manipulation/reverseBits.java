@@ -14,8 +14,8 @@ Explanation: The input binary string 11111111111111111111111111111101 represents
 Constraints: The input must be a binary string of length 32
 */
 
-public class reverseBits{
-    public int Solution(int n){
+public class ReverseBits{
+    public int solution(int n){
         int a, rev=0;
         for (int i=0; i<32; i++){
             a=n&1;

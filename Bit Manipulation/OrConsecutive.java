@@ -19,7 +19,7 @@ Example 2:
     Output :  13 11 6 6 
 */
 
-class game_with_number2{
+class ConsecutiveOr{
     public static int[] solution(int arr[], int n){
         for (int i=0; i<n-1; i++)
             arr[i]=(arr[i]|arr[i+1]);

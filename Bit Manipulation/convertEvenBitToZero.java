@@ -18,7 +18,7 @@ Example 2:
     0, we get 1010. Hence the answer is 10.
 */
 
-class convertEvenBitToZero{
+class ConvertEvenBitToZero{
     static long solution(long n){
         return (n&0xAAAAAAAA);
     }
